@@ -46,7 +46,7 @@ function currentWeather(city){
         //parse the response for name of city and concanatig the date and icon (Putting everything together)
         $(currentCity).html(response.name +"("+date+")" + "<img src="+iconurl+">");
         // parse the response to display the current temperature.
-        // Converting the temp from Celcius to farenheit 
+        // Converting the temp from Kelvin to farenheit 
 
         const tempF = (response.main.temp - 273.15) * 1.80 + 32;
         $(currentTemperature).html((tempF).toFixed(2)+"&#8457");
