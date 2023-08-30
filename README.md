@@ -29,5 +29,10 @@ The steps required was to firstly build out all the of the html with the help of
 ## Credits 
 Made by Piero Rodriguez 
 
+Deployed Live Server: https://piero9992023.github.io/City-Weather-Dashboard/ 
+
+Github Repository Link : https://github.com/Piero9992023/City-Weather-Dashboard
+
+Github Account Link: https://github.com/Piero9992023 
 
 
