@@ -1,0 +1,22 @@
+/*Sets a margin/padding of 0, set a border-box and used special font from google fonts*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Sets the background color of webpage to dark gray*/
+body {
+    background-color: darkgray;
+}
+
+
+/* Making this accessable to the mobile devices*/
+@media (max-width: 750px) {
+    .container {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+}
+
